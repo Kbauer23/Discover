@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Document</title>
+  <style>
+    div {
+      width: 100px;
+      height: 50px;
+      background-color: blueviolet;
+      position: relative;
+
+      animation-name: example;
+      animation-duration: 4s;
+    }
+
+    .linear {
+      animation-timing-function: linear;
+    }
+
+    .ease {
+      animation-timing-function: ease;
+    }
+
+    .ease-in {
+      animation-timing-function: ease-in;
+    }
+
+    .ease-out {
+      animation-timing-function: ease-out;
+    }
+
+    .ease-in-out {
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes example {
+      from {
+        left: 0px;
+      }
+
+      to {
+        left: calc(100% - 100px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="linear"></div>
+  <div class="ease"></div>
+  <div class="ease-in"></div>
+  <div class="ease-in-out"></div>
+</body>
+
+</html>
