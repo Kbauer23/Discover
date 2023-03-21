@@ -1,3 +1,3 @@
 # Discover
-RocketSeat Discover, Exercices another
+RocketSeat Discover;
 HTML and JS rocketseat classes;
